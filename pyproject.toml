@@ -1,0 +1,16 @@
+[project]
+name = "web-search-chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "beautifulsoup4>=4.13.4",
+    "langchain>=0.3.26",
+    "langchain-chroma>=0.2.4",
+    "langchain-community>=0.3.27",
+    "langchain-openai>=0.3.27",
+    "openai-agents>=0.1.0",
+    "python-dotenv>=1.1.1",
+    "streamlit>=1.46.1",
+]
